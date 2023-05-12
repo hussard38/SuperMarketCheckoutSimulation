@@ -7,8 +7,10 @@
         <groupId>org.hussard.supermarket.checkout.simulation</groupId>
         <artifactId>SuperMarketCheckoutSimulation</artifactId>
         <version>1.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>business</artifactId>
+
+    <artifactId>application</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -16,7 +18,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-
+        <!--<dependency>
+            <groupId>org.hussard.supermarket.checkout.simulation</groupId>
+            <artifactId>business</artifactId>
+            <version>1.0</version>
+        </dependency>-->
     </dependencies>
 
 </project>
